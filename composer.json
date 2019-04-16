@@ -1,0 +1,21 @@
+{
+    "name": "roman/geekhub-image",
+    "description": "GeekHub Adv PHP HW 4 Image Filter",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "ext-gd": "*"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Roman Krivenko",
+            "email": "roman-kr-2017@ukr.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "yamadote\\Image\\": "src"
+        }
+    }
+}
